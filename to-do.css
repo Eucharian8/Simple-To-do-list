@@ -12,9 +12,19 @@ body {
   .container {
     background-color: #fff;
     padding: 20px;
+    width: 50%;
+    height: 80%;
     border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px #ccc;
   }
+
+#taskInput {
+    padding: 10px;
+}
+
+#addTaskBtn {
+    padding: 10px;
+}
   
   ul {
     list-style: none;
@@ -38,9 +48,9 @@ body {
     cursor: pointer;
     border-radius: 4px;
   }
-  
+   /*Add styles for completed tasls*/
   .completed {
     text-decoration: line-through;
-    color: #888;
+    color: black;
   }
   
